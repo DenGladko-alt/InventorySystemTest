@@ -1,0 +1,109 @@
+[attr]unityyaml text eol=lf merge=unityyamlmerge
+[attr]unityjson text eol=lf
+[attr]lfs filter=lfs diff=lfs merge=lfs -text
+
+*.cs                    text eol=lf diff=csharp
+*.cginc                 text eol=lf
+*.compute               text eol=lf
+*.hlsl                  text eol=lf
+*.raytrace              text eol=lf
+*.shader                text eol=lf
+
+*.json                  text eol=lf
+*.xml                   text eol=lf
+*.yaml                  text eol=lf
+*.yml                   text eol=lf
+*.md                    text eol=lf
+*.txt                   text eol=lf
+
+*.uxml                  text eol=lf
+*.uss                   text eol=lf
+*.tss                   text eol=lf
+
+*.anim                  unityyaml
+*.asset                 unityyaml
+*.controller            unityyaml
+*.mat                   unityyaml
+*.physicsMaterial2D     unityyaml
+*.physicMaterial        unityyaml
+*.prefab                unityyaml
+*.unity                 unityyaml
+*.meta                  unityyaml
+
+*.asmdef                unityjson
+*.asmref                unityjson
+*.inputactions          unityjson
+*.shadergraph           unityjson
+*.shadersubgraph        unityjson
+
+*LightingData.asset     lfs
+*TerrainData.asset      lfs
+*-[Nn]av[Mm]esh.asset       lfs
+*OcclusionCullingData.asset lfs
+
+*.ai                    lfs
+*.bmp                   lfs
+*.exr                   lfs
+*.gif                   lfs
+*.hdr                   lfs
+*.jpeg                  lfs
+*.jpg                   lfs
+*.png                   lfs
+*.psb                   lfs
+*.psd                   lfs
+*.tga                   lfs
+*.tif                   lfs
+*.tiff                  lfs
+*.webp                  lfs
+
+*.aif                   lfs
+*.aiff                  lfs
+*.flac                  lfs
+*.it                    lfs
+*.mod                   lfs
+*.mp3                   lfs
+*.ogg                   lfs
+*.s3m                   lfs
+*.wav                   lfs
+*.xm                    lfs
+
+*.asf                   lfs
+*.avi                   lfs
+*.m4v                   lfs
+*.mov                   lfs
+*.mp4                   lfs
+*.mpeg                  lfs
+*.mpg                   lfs
+*.ogv                   lfs
+*.webm                  lfs
+*.wmv                   lfs
+
+*.3ds                   lfs
+*.blend                 lfs
+*.c4d                   lfs
+*.dae                   lfs
+*.dxf                   lfs
+*.fbx                   lfs
+*.glb                   lfs
+*.gltf                  lfs
+*.lwo                   lfs
+*.ma                    lfs
+*.max                   lfs
+*.mb                    lfs
+*.obj                   lfs
+*.skp                   lfs
+*.stl                   lfs
+
+*.otf                   lfs
+*.ttf                   lfs
+
+*.7z                    lfs
+*.aab                   lfs
+*.apk                   lfs
+*.rar                   lfs
+*.unitypackage          lfs
+*.zip                   lfs
+*.so                    lfs
+*.exe                   lfs
+*.pdf                   lfs
+*.pdb                   lfs
